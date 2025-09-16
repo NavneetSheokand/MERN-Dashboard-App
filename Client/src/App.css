@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: linear-gradient(135deg, #d47a30, #b7abc3);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main container */
+.registration-container {
+  background: white;
+  border-radius: 12px;
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Inputs */
+input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+input:focus {
+  border-color: #667eea;
+  outline: none;
+}
+
+/* Button */
+button {
+  background: linear-gradient(135deg, #ef7009, #db3823);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.button-link{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  font-weight: 700;
+}
+
